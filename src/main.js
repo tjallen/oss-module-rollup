@@ -1,7 +1,3 @@
-const bar = 'bar';
+import DummyComponent from './DummyComponent';
 
-function foo() {
-  console.log(`foo ${bar}`);
-}
-
-export default foo;
+export default DummyComponent;

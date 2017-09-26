@@ -2,6 +2,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import babel from 'rollup-plugin-babel';
 import pkg from './package.json';
+import jsx from 'rollup-plugin-jsx'
 
 export default {
 	input: 'src/main.js',
@@ -12,9 +13,11 @@ export default {
 	},
 	plugins: [
 		resolve(), // resolve node_modules
-		commonjs(), // allow rollup to convert commonjs => ES modules
+		commonjs(),
+		jsx( {factory: 'React.createElement'} ),
 		babel({
 			exclude: ['node_modules/**']
 		})
-	]
+	],
+	external: ['react']
 };
