@@ -1,10 +1,10 @@
 # oss-module-rollup
-simple boilerplate for creating a module with rollup for publishing via npm etc
+simple boilerplate for creating a module with rollup for publishing via npm etc. bundles ES6 JS using babel.
 
 ## install
 1. clone repo
 2. `npm install`
-3. change the `name` field in package.json to the name of your module
+3. change the `"name"` property in package.json to the name of your module
 
 ## usage
 npm scripts:
