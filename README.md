@@ -8,5 +8,6 @@ simple boilerplate for creating a module with rollup for publishing via npm etc.
 
 ## usage
 npm scripts:
-- `npm run build`: create a bundle with rollup
+- `npm start`: runs `npm run dev` (see below)
 - `npm run dev`: runs rollup in watch mode
+- `npm run build`: create a bundle with rollup
