@@ -1,6 +1,9 @@
 # oss-module-rollup
 A basic boilerplate for bundling a module using Rollup. 
 
+## Branches
+Select a branch depending on your usage requirements:
+
 ##### [Master](https://github.com/tjallen/oss-module-rollup)
 
 Compiles ES6 JS using Babel & bundles with Rollup. Use to bundle a JS module.
